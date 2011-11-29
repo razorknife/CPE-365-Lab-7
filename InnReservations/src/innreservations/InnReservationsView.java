@@ -145,6 +145,19 @@ public class InnReservationsView extends FrameView {
         jButton14 = new javax.swing.JButton();
         jLabel51 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
+        jPanel12 = new javax.swing.JPanel();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        jTable14 = new javax.swing.JTable();
+        jLabel52 = new javax.swing.JLabel();
+        jScrollPane15 = new javax.swing.JScrollPane();
+        jTable15 = new javax.swing.JTable();
+        jPanel13 = new javax.swing.JPanel();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        jTable16 = new javax.swing.JTable();
+        jLabel53 = new javax.swing.JLabel();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        jTable17 = new javax.swing.JTable();
         jPanel8 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTable3 = new javax.swing.JTable();
@@ -649,15 +662,209 @@ public class InnReservationsView extends FrameView {
 
         jPanel7.setName("jPanel7"); // NOI18N
 
+        jTabbedPane5.setName("jTabbedPane5"); // NOI18N
+
+        jPanel12.setName("jPanel12"); // NOI18N
+
+        jScrollPane14.setName("jScrollPane14"); // NOI18N
+
+        jTable14.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "Total"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false, false, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable14.setName("jTable14"); // NOI18N
+        jScrollPane14.setViewportView(jTable14);
+        jTable14.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable14.columnModel.title0")); // NOI18N
+        jTable14.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable14.columnModel.title1")); // NOI18N
+        jTable14.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable14.columnModel.title2")); // NOI18N
+        jTable14.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable14.columnModel.title3")); // NOI18N
+        jTable14.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable14.columnModel.title4")); // NOI18N
+        jTable14.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable14.columnModel.title5")); // NOI18N
+        jTable14.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable14.columnModel.title6")); // NOI18N
+        jTable14.getColumnModel().getColumn(7).setHeaderValue(resourceMap.getString("jTable14.columnModel.title7")); // NOI18N
+        jTable14.getColumnModel().getColumn(8).setHeaderValue(resourceMap.getString("jTable14.columnModel.title8")); // NOI18N
+        jTable14.getColumnModel().getColumn(9).setHeaderValue(resourceMap.getString("jTable14.columnModel.title9")); // NOI18N
+        jTable14.getColumnModel().getColumn(10).setHeaderValue(resourceMap.getString("jTable14.columnModel.title10")); // NOI18N
+        jTable14.getColumnModel().getColumn(11).setHeaderValue(resourceMap.getString("jTable14.columnModel.title11")); // NOI18N
+        jTable14.getColumnModel().getColumn(12).setHeaderValue(resourceMap.getString("jTable14.columnModel.title12")); // NOI18N
+
+        jLabel52.setFont(resourceMap.getFont("jLabel52.font")); // NOI18N
+        jLabel52.setText(resourceMap.getString("jLabel52.text")); // NOI18N
+        jLabel52.setName("jLabel52"); // NOI18N
+
+        jScrollPane15.setName("jScrollPane15"); // NOI18N
+
+        jTable15.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "Total"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false, false, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable15.setName("jTable15"); // NOI18N
+        jScrollPane15.setViewportView(jTable15);
+        jTable15.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable15.columnModel.title0")); // NOI18N
+        jTable15.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable15.columnModel.title1")); // NOI18N
+        jTable15.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable15.columnModel.title2")); // NOI18N
+        jTable15.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable15.columnModel.title3")); // NOI18N
+        jTable15.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable15.columnModel.title4")); // NOI18N
+        jTable15.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable15.columnModel.title5")); // NOI18N
+        jTable15.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable15.columnModel.title6")); // NOI18N
+        jTable15.getColumnModel().getColumn(7).setHeaderValue(resourceMap.getString("jTable15.columnModel.title7")); // NOI18N
+        jTable15.getColumnModel().getColumn(8).setHeaderValue(resourceMap.getString("jTable15.columnModel.title8")); // NOI18N
+        jTable15.getColumnModel().getColumn(9).setHeaderValue(resourceMap.getString("jTable15.columnModel.title9")); // NOI18N
+        jTable15.getColumnModel().getColumn(10).setHeaderValue(resourceMap.getString("jTable15.columnModel.title10")); // NOI18N
+        jTable15.getColumnModel().getColumn(11).setHeaderValue(resourceMap.getString("jTable15.columnModel.title11")); // NOI18N
+        jTable15.getColumnModel().getColumn(12).setHeaderValue(resourceMap.getString("jTable15.columnModel.title12")); // NOI18N
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addComponent(jLabel52)
+                .addGap(761, 761, 761))
+            .addComponent(jScrollPane14, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 881, Short.MAX_VALUE)
+            .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 881, Short.MAX_VALUE)
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 419, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel52)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE))
+        );
+
+        jTabbedPane5.addTab(resourceMap.getString("jPanel12.TabConstraints.tabTitle"), jPanel12); // NOI18N
+
+        jPanel13.setName("jPanel13"); // NOI18N
+
+        jScrollPane16.setName("jScrollPane16"); // NOI18N
+
+        jTable16.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "Total"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false, false, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable16.setName("jTable16"); // NOI18N
+        jScrollPane16.setViewportView(jTable16);
+        jTable16.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable16.columnModel.title0")); // NOI18N
+        jTable16.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable16.columnModel.title1")); // NOI18N
+        jTable16.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable16.columnModel.title2")); // NOI18N
+        jTable16.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable16.columnModel.title3")); // NOI18N
+        jTable16.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable16.columnModel.title4")); // NOI18N
+        jTable16.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable16.columnModel.title5")); // NOI18N
+        jTable16.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable16.columnModel.title6")); // NOI18N
+        jTable16.getColumnModel().getColumn(7).setHeaderValue(resourceMap.getString("jTable16.columnModel.title7")); // NOI18N
+        jTable16.getColumnModel().getColumn(8).setHeaderValue(resourceMap.getString("jTable16.columnModel.title8")); // NOI18N
+        jTable16.getColumnModel().getColumn(9).setHeaderValue(resourceMap.getString("jTable16.columnModel.title9")); // NOI18N
+        jTable16.getColumnModel().getColumn(10).setHeaderValue(resourceMap.getString("jTable16.columnModel.title10")); // NOI18N
+        jTable16.getColumnModel().getColumn(11).setHeaderValue(resourceMap.getString("jTable16.columnModel.title11")); // NOI18N
+        jTable16.getColumnModel().getColumn(12).setHeaderValue(resourceMap.getString("jTable16.columnModel.title12")); // NOI18N
+
+        jLabel53.setFont(resourceMap.getFont("jLabel53.font")); // NOI18N
+        jLabel53.setText(resourceMap.getString("jLabel53.text")); // NOI18N
+        jLabel53.setName("jLabel53"); // NOI18N
+
+        jScrollPane17.setName("jScrollPane17"); // NOI18N
+
+        jTable17.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "Total"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false, false, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable17.setName("jTable17"); // NOI18N
+        jScrollPane17.setViewportView(jTable17);
+        jTable17.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable17.columnModel.title0")); // NOI18N
+        jTable17.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable17.columnModel.title1")); // NOI18N
+        jTable17.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable17.columnModel.title2")); // NOI18N
+        jTable17.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable17.columnModel.title3")); // NOI18N
+        jTable17.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable17.columnModel.title4")); // NOI18N
+        jTable17.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable17.columnModel.title5")); // NOI18N
+        jTable17.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable17.columnModel.title6")); // NOI18N
+        jTable17.getColumnModel().getColumn(7).setHeaderValue(resourceMap.getString("jTable17.columnModel.title7")); // NOI18N
+        jTable17.getColumnModel().getColumn(8).setHeaderValue(resourceMap.getString("jTable17.columnModel.title8")); // NOI18N
+        jTable17.getColumnModel().getColumn(9).setHeaderValue(resourceMap.getString("jTable17.columnModel.title9")); // NOI18N
+        jTable17.getColumnModel().getColumn(10).setHeaderValue(resourceMap.getString("jTable17.columnModel.title10")); // NOI18N
+        jTable17.getColumnModel().getColumn(11).setHeaderValue(resourceMap.getString("jTable17.columnModel.title11")); // NOI18N
+        jTable17.getColumnModel().getColumn(12).setHeaderValue(resourceMap.getString("jTable17.columnModel.title12")); // NOI18N
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addComponent(jLabel53)
+                .addContainerGap())
+            .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 881, Short.MAX_VALUE)
+            .addComponent(jScrollPane16, javax.swing.GroupLayout.DEFAULT_SIZE, 881, Short.MAX_VALUE)
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
+                .addComponent(jScrollPane16, javax.swing.GroupLayout.DEFAULT_SIZE, 419, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel53)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        jTabbedPane5.addTab(resourceMap.getString("jPanel13.TabConstraints.tabTitle"), jPanel13); // NOI18N
+
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 886, Short.MAX_VALUE)
+            .addComponent(jTabbedPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 886, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 528, Short.MAX_VALUE)
+            .addComponent(jTabbedPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 528, Short.MAX_VALUE)
         );
 
         jTabbedPane3.addTab(resourceMap.getString("jPanel7.TabConstraints.tabTitle"), jPanel7); // NOI18N
@@ -1564,6 +1771,8 @@ public class InnReservationsView extends FrameView {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -1571,6 +1780,8 @@ public class InnReservationsView extends FrameView {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -1584,6 +1795,10 @@ public class InnReservationsView extends FrameView {
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -1596,11 +1811,16 @@ public class InnReservationsView extends FrameView {
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTabbedPane jTabbedPane3;
     private javax.swing.JTabbedPane jTabbedPane4;
+    private javax.swing.JTabbedPane jTabbedPane5;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable10;
     private javax.swing.JTable jTable11;
     private javax.swing.JTable jTable12;
     private javax.swing.JTable jTable13;
+    private javax.swing.JTable jTable14;
+    private javax.swing.JTable jTable15;
+    private javax.swing.JTable jTable16;
+    private javax.swing.JTable jTable17;
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
     private javax.swing.JTable jTable4;
