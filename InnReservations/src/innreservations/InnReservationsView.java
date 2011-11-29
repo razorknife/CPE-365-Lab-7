@@ -132,6 +132,18 @@ public class InnReservationsView extends FrameView {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jTable11 = new javax.swing.JTable();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        jButton13 = new javax.swing.JButton();
+        jLabel50 = new javax.swing.JLabel();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        jTable12 = new javax.swing.JTable();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        jTable13 = new javax.swing.JTable();
+        jButton14 = new javax.swing.JButton();
+        jLabel51 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
@@ -254,23 +266,14 @@ public class InnReservationsView extends FrameView {
         jTable1.setName("jTable1"); // NOI18N
         jScrollPane1.setViewportView(jTable1);
         org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(innreservations.InnReservationsApp.class).getContext().getResourceMap(InnReservationsView.class);
-        jTable1.getColumnModel().getColumn(0).setResizable(false);
         jTable1.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable1.columnModel.title0")); // NOI18N
-        jTable1.getColumnModel().getColumn(1).setResizable(false);
         jTable1.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable1.columnModel.title1")); // NOI18N
-        jTable1.getColumnModel().getColumn(2).setResizable(false);
         jTable1.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable1.columnModel.title2")); // NOI18N
-        jTable1.getColumnModel().getColumn(3).setResizable(false);
         jTable1.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable1.columnModel.title3")); // NOI18N
-        jTable1.getColumnModel().getColumn(4).setResizable(false);
         jTable1.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable1.columnModel.title4")); // NOI18N
-        jTable1.getColumnModel().getColumn(5).setResizable(false);
         jTable1.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable1.columnModel.title5")); // NOI18N
-        jTable1.getColumnModel().getColumn(6).setResizable(false);
         jTable1.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable1.columnModel.title6")); // NOI18N
-        jTable1.getColumnModel().getColumn(7).setResizable(false);
         jTable1.getColumnModel().getColumn(7).setHeaderValue(resourceMap.getString("jTable1.columnModel.title7")); // NOI18N
-        jTable1.getColumnModel().getColumn(8).setResizable(false);
         jTable1.getColumnModel().getColumn(8).setHeaderValue(resourceMap.getString("jTable1.columnModel.title8")); // NOI18N
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -299,7 +302,7 @@ public class InnReservationsView extends FrameView {
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, true, false
+                false, false, false, false, false, false, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
@@ -308,19 +311,12 @@ public class InnReservationsView extends FrameView {
         });
         jTable2.setName("jTable2"); // NOI18N
         jScrollPane2.setViewportView(jTable2);
-        jTable2.getColumnModel().getColumn(0).setResizable(false);
         jTable2.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable2.columnModel.title0")); // NOI18N
-        jTable2.getColumnModel().getColumn(1).setResizable(false);
         jTable2.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable2.columnModel.title1")); // NOI18N
-        jTable2.getColumnModel().getColumn(2).setResizable(false);
         jTable2.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable2.columnModel.title2")); // NOI18N
-        jTable2.getColumnModel().getColumn(3).setResizable(false);
         jTable2.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable2.columnModel.title3")); // NOI18N
-        jTable2.getColumnModel().getColumn(4).setResizable(false);
         jTable2.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable2.columnModel.title4")); // NOI18N
-        jTable2.getColumnModel().getColumn(5).setResizable(false);
         jTable2.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable2.columnModel.title5")); // NOI18N
-        jTable2.getColumnModel().getColumn(6).setResizable(false);
         jTable2.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable2.columnModel.title6")); // NOI18N
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
@@ -448,6 +444,108 @@ public class InnReservationsView extends FrameView {
         jButton4.setText(resourceMap.getString("jButton4.text")); // NOI18N
         jButton4.setName("jButton4"); // NOI18N
 
+        jScrollPane11.setName("jScrollPane11"); // NOI18N
+
+        jTable11.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "RoomName", "Occupied?"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable11.setName("jTable11"); // NOI18N
+        jScrollPane11.setViewportView(jTable11);
+        jTable11.getColumnModel().getColumn(0).setResizable(false);
+        jTable11.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable11.columnModel.title0")); // NOI18N
+        jTable11.getColumnModel().getColumn(1).setResizable(false);
+        jTable11.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable11.columnModel.title1")); // NOI18N
+
+        jLabel48.setFont(resourceMap.getFont("jLabel48.font")); // NOI18N
+        jLabel48.setText(resourceMap.getString("jLabel48.text")); // NOI18N
+        jLabel48.setName("jLabel48"); // NOI18N
+
+        jLabel49.setFont(resourceMap.getFont("jLabel49.font")); // NOI18N
+        jLabel49.setText(resourceMap.getString("jLabel49.text")); // NOI18N
+        jLabel49.setName("jLabel49"); // NOI18N
+
+        jButton13.setText(resourceMap.getString("jButton13.text")); // NOI18N
+        jButton13.setName("jButton13"); // NOI18N
+
+        jLabel50.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
+        jLabel50.setText(resourceMap.getString("jLabel50.text")); // NOI18N
+        jLabel50.setName("jLabel50"); // NOI18N
+
+        jScrollPane12.setName("jScrollPane12"); // NOI18N
+
+        jTable12.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Code", "Room", "Checkin", "Checkout", "Rate", "Lastname", "Firstname", "Adults", "Kids"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable12.setName("jTable12"); // NOI18N
+        jScrollPane12.setViewportView(jTable12);
+        jTable12.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable12.columnModel.title0")); // NOI18N
+        jTable12.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable12.columnModel.title1")); // NOI18N
+        jTable12.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable12.columnModel.title2")); // NOI18N
+        jTable12.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable12.columnModel.title3")); // NOI18N
+        jTable12.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable12.columnModel.title4")); // NOI18N
+        jTable12.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable12.columnModel.title5")); // NOI18N
+        jTable12.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable12.columnModel.title6")); // NOI18N
+        jTable12.getColumnModel().getColumn(7).setHeaderValue(resourceMap.getString("jTable12.columnModel.title7")); // NOI18N
+        jTable12.getColumnModel().getColumn(8).setHeaderValue(resourceMap.getString("jTable12.columnModel.title8")); // NOI18N
+
+        jScrollPane13.setName("jScrollPane13"); // NOI18N
+
+        jTable13.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Code", "Checkin", "Checkout", "Rate"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable13.setName("jTable13"); // NOI18N
+        jScrollPane13.setViewportView(jTable13);
+        jTable13.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable13.columnModel.title0")); // NOI18N
+        jTable13.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable13.columnModel.title1")); // NOI18N
+        jTable13.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable13.columnModel.title2")); // NOI18N
+        jTable13.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable13.columnModel.title3")); // NOI18N
+
+        jButton14.setText(resourceMap.getString("jButton14.text")); // NOI18N
+        jButton14.setName("jButton14"); // NOI18N
+
+        jLabel51.setFont(resourceMap.getFont("jLabel51.font")); // NOI18N
+        jLabel51.setText(resourceMap.getString("jLabel51.text")); // NOI18N
+        jLabel51.setName("jLabel51"); // NOI18N
+
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
@@ -456,54 +554,95 @@ public class InnReservationsView extends FrameView {
                 .addContainerGap()
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(4, 4, 4)
-                        .addComponent(jLabel6)
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel7))
-                    .addComponent(jLabel4)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel6Layout.createSequentialGroup()
+                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(4, 4, 4)
+                                .addComponent(jLabel6)
+                                .addGap(6, 6, 6)
+                                .addComponent(jLabel7))
+                            .addGroup(jPanel6Layout.createSequentialGroup()
+                                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel9)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel10)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel11))
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel48))
+                        .addGap(44, 44, 44)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel49)
+                            .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel50)
+                            .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 337, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel9)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel10)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel11))
-                    .addComponent(jLabel8)
-                    .addComponent(jButton4))
-                .addContainerGap(781, Short.MAX_VALUE))
+                        .addComponent(jButton4)
+                        .addGap(218, 218, 218)
+                        .addComponent(jButton13)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 254, Short.MAX_VALUE)
+                        .addComponent(jButton14)
+                        .addGap(125, 125, 125))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(jLabel51)
+                        .addContainerGap(386, Short.MAX_VALUE))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 866, Short.MAX_VALUE)
+                        .addContainerGap())))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel7))
+                    .addComponent(jLabel48)
+                    .addComponent(jLabel49)
+                    .addComponent(jLabel50))
+                .addGap(17, 17, 17)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel7))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel8)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel9)
+                            .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel10)
+                            .addComponent(jLabel11)))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jScrollPane11, 0, 0, Short.MAX_VALUE)
+                            .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 183, Short.MAX_VALUE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton13)
+                            .addComponent(jButton4)
+                            .addComponent(jButton14))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
+                .addComponent(jLabel51)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10)
-                    .addComponent(jLabel11))
-                .addGap(18, 18, 18)
-                .addComponent(jButton4)
-                .addContainerGap(365, Short.MAX_VALUE))
+                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(28, 28, 28))
         );
 
         jTabbedPane3.addTab(resourceMap.getString("jPanel6.TabConstraints.tabTitle"), jPanel6); // NOI18N
@@ -545,23 +684,14 @@ public class InnReservationsView extends FrameView {
         });
         jTable3.setName("jTable3"); // NOI18N
         jScrollPane3.setViewportView(jTable3);
-        jTable3.getColumnModel().getColumn(0).setResizable(false);
         jTable3.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable3.columnModel.title0")); // NOI18N
-        jTable3.getColumnModel().getColumn(1).setResizable(false);
         jTable3.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable3.columnModel.title1")); // NOI18N
-        jTable3.getColumnModel().getColumn(2).setResizable(false);
         jTable3.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable3.columnModel.title2")); // NOI18N
-        jTable3.getColumnModel().getColumn(3).setResizable(false);
         jTable3.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable3.columnModel.title3")); // NOI18N
-        jTable3.getColumnModel().getColumn(4).setResizable(false);
         jTable3.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable3.columnModel.title4")); // NOI18N
-        jTable3.getColumnModel().getColumn(5).setResizable(false);
         jTable3.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable3.columnModel.title5")); // NOI18N
-        jTable3.getColumnModel().getColumn(6).setResizable(false);
         jTable3.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable3.columnModel.title6")); // NOI18N
-        jTable3.getColumnModel().getColumn(7).setResizable(false);
         jTable3.getColumnModel().getColumn(7).setHeaderValue(resourceMap.getString("jTable3.columnModel.title7")); // NOI18N
-        jTable3.getColumnModel().getColumn(8).setResizable(false);
         jTable3.getColumnModel().getColumn(8).setHeaderValue(resourceMap.getString("jTable3.columnModel.title8")); // NOI18N
 
         jLabel15.setText(resourceMap.getString("jLabel15.text")); // NOI18N
@@ -695,15 +825,10 @@ public class InnReservationsView extends FrameView {
         });
         jTable4.setName("jTable4"); // NOI18N
         jScrollPane4.setViewportView(jTable4);
-        jTable4.getColumnModel().getColumn(0).setResizable(false);
         jTable4.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable4.columnModel.title0")); // NOI18N
-        jTable4.getColumnModel().getColumn(1).setResizable(false);
         jTable4.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable4.columnModel.title1")); // NOI18N
-        jTable4.getColumnModel().getColumn(2).setResizable(false);
         jTable4.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable4.columnModel.title2")); // NOI18N
-        jTable4.getColumnModel().getColumn(3).setResizable(false);
         jTable4.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable4.columnModel.title3")); // NOI18N
-        jTable4.getColumnModel().getColumn(4).setResizable(false);
         jTable4.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable4.columnModel.title4")); // NOI18N
         jTable4.getColumnModel().getColumn(5).setResizable(false);
         jTable4.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable4.columnModel.title5")); // NOI18N
@@ -738,23 +863,14 @@ public class InnReservationsView extends FrameView {
         });
         jTable5.setName("jTable5"); // NOI18N
         jScrollPane5.setViewportView(jTable5);
-        jTable5.getColumnModel().getColumn(0).setResizable(false);
         jTable5.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable5.columnModel.title0")); // NOI18N
-        jTable5.getColumnModel().getColumn(1).setResizable(false);
         jTable5.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable5.columnModel.title1")); // NOI18N
-        jTable5.getColumnModel().getColumn(2).setResizable(false);
         jTable5.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable5.columnModel.title2")); // NOI18N
-        jTable5.getColumnModel().getColumn(3).setResizable(false);
         jTable5.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable5.columnModel.title3")); // NOI18N
-        jTable5.getColumnModel().getColumn(4).setResizable(false);
         jTable5.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable5.columnModel.title4")); // NOI18N
-        jTable5.getColumnModel().getColumn(5).setResizable(false);
         jTable5.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable5.columnModel.title5")); // NOI18N
-        jTable5.getColumnModel().getColumn(6).setResizable(false);
         jTable5.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable5.columnModel.title6")); // NOI18N
-        jTable5.getColumnModel().getColumn(7).setResizable(false);
         jTable5.getColumnModel().getColumn(7).setHeaderValue(resourceMap.getString("jTable5.columnModel.title7")); // NOI18N
-        jTable5.getColumnModel().getColumn(8).setResizable(false);
         jTable5.getColumnModel().getColumn(8).setHeaderValue(resourceMap.getString("jTable5.columnModel.title8")); // NOI18N
 
         jScrollPane6.setName("jScrollPane6"); // NOI18N
@@ -944,7 +1060,15 @@ public class InnReservationsView extends FrameView {
             new String [] {
                 "Roomid", "RoomName", "Beds", "Bedtype", "Maxoccupancy", "BasePrice", "Decor"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, true, false, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jTable10.setName("jTable10"); // NOI18N
         jScrollPane10.setViewportView(jTable10);
         jTable10.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable10.columnModel.title0")); // NOI18N
@@ -1101,7 +1225,7 @@ public class InnReservationsView extends FrameView {
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, true, false
+                false, false, false, false, false, false, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
@@ -1110,17 +1234,12 @@ public class InnReservationsView extends FrameView {
         });
         jTable8.setName("jTable8"); // NOI18N
         jScrollPane8.setViewportView(jTable8);
-        jTable8.getColumnModel().getColumn(0).setResizable(false);
         jTable8.getColumnModel().getColumn(0).setHeaderValue(resourceMap.getString("jTable8.columnModel.title0")); // NOI18N
-        jTable8.getColumnModel().getColumn(1).setResizable(false);
         jTable8.getColumnModel().getColumn(1).setHeaderValue(resourceMap.getString("jTable8.columnModel.title1")); // NOI18N
-        jTable8.getColumnModel().getColumn(2).setResizable(false);
         jTable8.getColumnModel().getColumn(2).setHeaderValue(resourceMap.getString("jTable8.columnModel.title2")); // NOI18N
-        jTable8.getColumnModel().getColumn(3).setResizable(false);
         jTable8.getColumnModel().getColumn(3).setHeaderValue(resourceMap.getString("jTable8.columnModel.title3")); // NOI18N
         jTable8.getColumnModel().getColumn(4).setResizable(false);
         jTable8.getColumnModel().getColumn(4).setHeaderValue(resourceMap.getString("jTable8.columnModel.title4")); // NOI18N
-        jTable8.getColumnModel().getColumn(5).setResizable(false);
         jTable8.getColumnModel().getColumn(5).setHeaderValue(resourceMap.getString("jTable8.columnModel.title5")); // NOI18N
         jTable8.getColumnModel().getColumn(6).setResizable(false);
         jTable8.getColumnModel().getColumn(6).setHeaderValue(resourceMap.getString("jTable8.columnModel.title6")); // NOI18N
@@ -1388,6 +1507,8 @@ public class InnReservationsView extends FrameView {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -1438,7 +1559,11 @@ public class InnReservationsView extends FrameView {
     private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -1456,6 +1581,9 @@ public class InnReservationsView extends FrameView {
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -1470,6 +1598,9 @@ public class InnReservationsView extends FrameView {
     private javax.swing.JTabbedPane jTabbedPane4;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable10;
+    private javax.swing.JTable jTable11;
+    private javax.swing.JTable jTable12;
+    private javax.swing.JTable jTable13;
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
     private javax.swing.JTable jTable4;
