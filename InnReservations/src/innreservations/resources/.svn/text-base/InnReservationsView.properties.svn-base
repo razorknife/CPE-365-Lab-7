@@ -1,0 +1,324 @@
+# Resources for the InnReservationsView class
+
+# top-level menus
+
+fileMenu.text = File
+helpMenu.text = Help
+
+# @Action resources
+
+showAboutBox.Action.text = &About...
+showAboutBox.Action.shortDescription = Show the application's information dialog
+
+# status bar resources
+
+StatusBar.messageTimeout = 5000
+StatusBar.busyAnimationRate = 30
+StatusBar.idleIcon = busyicons/idle-icon.png
+StatusBar.busyIcons[0]  = busyicons/busy-icon0.png
+StatusBar.busyIcons[1]  = busyicons/busy-icon1.png
+StatusBar.busyIcons[2]  = busyicons/busy-icon2.png
+StatusBar.busyIcons[3]  = busyicons/busy-icon3.png
+StatusBar.busyIcons[4]  = busyicons/busy-icon4.png
+StatusBar.busyIcons[5]  = busyicons/busy-icon5.png
+StatusBar.busyIcons[6]  = busyicons/busy-icon6.png
+StatusBar.busyIcons[7]  = busyicons/busy-icon7.png
+StatusBar.busyIcons[8]  = busyicons/busy-icon8.png
+StatusBar.busyIcons[9]  = busyicons/busy-icon9.png
+StatusBar.busyIcons[10] = busyicons/busy-icon10.png
+StatusBar.busyIcons[11] = busyicons/busy-icon11.png
+StatusBar.busyIcons[12] = busyicons/busy-icon12.png
+StatusBar.busyIcons[13] = busyicons/busy-icon13.png
+StatusBar.busyIcons[14] = busyicons/busy-icon14.png
+jPanel1.TabConstraints.tabTitle=Admin
+jPanel2.TabConstraints.tabTitle=Owner
+jPanel3.TabConstraints.tabTitle=Guest
+jPanel4.TabConstraints.tabTitle=Reservations
+jPanel5.TabConstraints.tabTitle=Rooms
+jButton1.text=Clear DB
+jButton2.text=ReLoad DB
+jButton3.text=Drop DB
+jLabel1.text=DB Status:
+jLabel2.text=Reservations Count:
+jLabel3.text=Rooms Count:
+jPanel6.TabConstraints.tabTitle=Occupancy
+jPanel7.TabConstraints.tabTitle=Revenue
+jPanel8.TabConstraints.tabTitle=Reservations
+jPanel9.TabConstraints.tabTitle=Rooms
+jPanel10.TabConstraints.tabTitle=Rooms & Rates
+jPanel11.TabConstraints.tabTitle=Reservations
+jLabel4.text=Start Date:
+jTextField1.text=12
+jLabel5.text=-
+#NOI18N
+jLabel5.font=Tahoma-Plain-18
+jTextField2.text=24
+jLabel6.text=-
+#NOI18N
+jLabel6.font=Tahoma-Plain-18
+jLabel7.text=2010
+#NOI18N
+jLabel7.background=255, 255, 255
+jLabel8.text=End Date:
+jTextField3.text=12
+jLabel9.text=-
+#NOI18N
+jLabel9.font=Tahoma-Plain-18
+jTextField4.text=24
+jLabel10.text=-
+#NOI18N
+jLabel10.font=Tahoma-Plain-18
+jLabel11.text=2010
+jButton4.text=Submit Dates
+jTable1.columnModel.title0=Code
+jTable1.columnModel.title3=Checkout
+jTable1.columnModel.title2=Checkin
+jTable1.columnModel.title1=Room
+jTable1.columnModel.title4=Rate
+jTable1.columnModel.title5=Lastname
+jTable1.columnModel.title6=Firstname
+jTable1.columnModel.title7=Adults
+jTable1.columnModel.title8=Kids
+jTable2.columnModel.title0=Roomid
+jTable2.columnModel.title3=BedType
+jTable2.columnModel.title2=Beds
+jTable2.columnModel.title1=RoomName
+jTable2.columnModel.title4=MaxOccupancy
+jTable2.columnModel.title5=BasePrice
+jTable2.columnModel.title6=Decor
+jTable3.columnModel.title3=Checkout
+jTable3.columnModel.title2=Checkin
+jTable3.columnModel.title1=Room
+jTable3.columnModel.title0=Code
+jTable3.columnModel.title4=Rate
+jTable3.columnModel.title5=Lastname
+jTable3.columnModel.title6=Firstname
+jTable3.columnModel.title7=Adults
+jTable3.columnModel.title8=Kids
+jTable4.columnModel.title3=BedType
+jTable4.columnModel.title2=Beds
+jTable4.columnModel.title1=RoomName
+jTable4.columnModel.title0=Roomid
+jTable4.columnModel.title4=MaxOccupancy
+jTable4.columnModel.title5=BasePrice
+jTable4.columnModel.title6=Decor
+jLabel12.text=Room Details:
+#NOI18N
+jLabel12.font=Tahoma-Plain-18
+jLabel13.text=Reservations:
+#NOI18N
+jLabel13.font=Tahoma-Plain-18
+jTable6.columnModel.title3=RoomName
+jTable6.columnModel.title2=Title 3
+jTable6.columnModel.title1=Title 2
+jTable6.columnModel.title0=Roomid
+jLabel14.text=1. Pick a Room to view details:
+#NOI18N
+jLabel14.font=Tahoma-Plain-18
+jTable5.columnModel.title3=Checkout
+jTable5.columnModel.title2=Checkin
+jTable5.columnModel.title1=Room
+jTable5.columnModel.title0=Code
+jTable5.columnModel.title4=Rate
+jTable5.columnModel.title5=Lastname
+jTable5.columnModel.title6=Firstname
+jTable5.columnModel.title7=Adults
+jTable5.columnModel.title8=Kids
+jLabel15.text=Start Date:
+jTextField5.text=12
+jLabel16.text=-
+#NOI18N
+jLabel16.font=Tahoma-Plain-18
+jTextField6.text=24
+jLabel17.text=-
+#NOI18N
+jLabel17.font=Tahoma-Plain-18
+jLabel18.text=2010
+jLabel19.text=End Date:
+jTextField7.text=12
+jLabel20.text=-
+#NOI18N
+jLabel20.font=Tahoma-Plain-18
+jTextField8.text=24
+jLabel21.text=-
+#NOI18N
+jLabel21.font=Tahoma-Plain-18
+jLabel22.text=2010
+jButton5.text=Submit Dates
+jButton6.text=Submit Room
+jLabel23.text=Pick a Room to view details:
+#NOI18N
+jLabel23.font=Tahoma-Plain-18
+jTable7.columnModel.title0=Roomid
+jTable7.columnModel.title1=RoomName
+jLabel24.text=Room Details:
+#NOI18N
+jLabel24.font=Tahoma-Plain-18
+jTable8.columnModel.title0=Roomid
+jTable8.columnModel.title3=BedType
+jTable8.columnModel.title2=Beds
+jTable8.columnModel.title1=Roomname
+jTable8.columnModel.title4=MaxOccupancy
+jTable8.columnModel.title6=Decor
+jTable8.columnModel.title5=BasePrice
+jButton7.text=Submit Room
+jLabel25.text=Start Date:
+jLabel26.text=End Date:
+jTextField9.text=12
+jLabel27.text=-
+#NOI18N
+jLabel27.font=Tahoma-Plain-18
+jTextField10.text=24
+jLabel28.text=-
+#NOI18N
+jLabel28.font=Tahoma-Plain-18
+jLabel29.text=2010
+jTextField11.text=12
+jLabel30.text=-
+#NOI18N
+jLabel30.font=Tahoma-Plain-18
+jTextField12.text=24
+jLabel31.text=-
+#NOI18N
+jLabel31.font=Tahoma-Plain-18
+jLabel32.text=2010
+jButton8.text=Check Availability
+jLabel33.text=1. Enter Dates:
+#NOI18N
+jLabel33.font=Tahoma-Plain-18
+jLabel34.text=Start Date:
+jLabel35.text=-
+#NOI18N
+jLabel35.font=Tahoma-Plain-18
+jLabel36.text=-
+#NOI18N
+jLabel36.font=Tahoma-Plain-18
+jLabel37.text=2010
+jLabel38.text=End Date:
+jLabel39.text=-
+#NOI18N
+jLabel39.font=Tahoma-Plain-18
+jTextField14.text=24
+jTextField15.text=12
+jTextField16.text=24
+jTextField13.text=12
+jLabel40.text=-
+#NOI18N
+jLabel40.font=Tahoma-Plain-18
+jLabel41.text=2010
+jButton9.text=Submit Dates
+jLabel42.text=2. Select an avaliable room:
+#NOI18N
+jLabel42.font=Tahoma-Plain-18
+jTable9.columnModel.title0=RoomName
+jTable9.columnModel.title3=Title 4
+jTable9.columnModel.title2=Title 3
+jTable9.columnModel.title1=Rate
+jButton10.text=Select Room
+jLabel43.text=3. View detailed information about the room and make a reservation:
+#NOI18N
+jLabel43.font=Tahoma-Plain-18
+jButton11.text=Make Reservation
+jTable10.columnModel.title3=Bedtype
+jTable10.columnModel.title2=Beds
+jTable10.columnModel.title1=RoomName
+jTable10.columnModel.title0=Roomid
+jTable10.columnModel.title4=Maxoccupancy
+jTable10.columnModel.title5=BasePrice
+jTable10.columnModel.title6=Decor
+jButton12.text=Make Reservation
+jLabel44.text=Room is:
+jLabel45.text=Occupied
+jLabel46.text=Rate per night is:
+jLabel47.text=20
+jTable11.columnModel.title0=RoomName
+jTable11.columnModel.title3=Title 4
+jTable11.columnModel.title2=Title 3
+jTable11.columnModel.title1=Occupied?
+jLabel48.text=1. Select Dates of stay:
+#NOI18N
+jLabel48.font=Tahoma-Plain-18
+jLabel49.text=2. Select Room:
+#NOI18N
+jLabel49.font=Tahoma-Plain-18
+jButton13.text=Submit Room
+jLabel50.text=3. Select Reservation for Details:
+#NOI18N
+jLabel50.font=Tahoma-Plain-18
+jTable13.columnModel.title0=Code
+jTable13.columnModel.title3=Rate
+jTable13.columnModel.title2=Checkout
+jTable13.columnModel.title1=Checkin
+jButton14.text=View Details
+jLabel51.text=4. Detailed info for selected reservation for the selected room:
+#NOI18N
+jLabel51.font=Tahoma-Plain-18
+jTable12.columnModel.title0=Code
+jTable12.columnModel.title3=Checkout
+jTable12.columnModel.title2=Checkin
+jTable12.columnModel.title1=Room
+jTable12.columnModel.title4=Rate
+jTable12.columnModel.title5=Lastname
+jTable12.columnModel.title6=Firstname
+jTable12.columnModel.title7=Adults
+jTable12.columnModel.title8=Kids
+jPanel12.TabConstraints.tabTitle=Reservations
+jPanel13.TabConstraints.tabTitle=Revenue
+jTable14.columnModel.title0=January
+jTable14.columnModel.title3=April
+jTable14.columnModel.title2=March
+jTable14.columnModel.title1=February
+jTable14.columnModel.title4=May
+jTable14.columnModel.title5=June
+jTable14.columnModel.title6=July
+jTable14.columnModel.title7=August
+jTable14.columnModel.title8=September
+jTable14.columnModel.title9=October
+jTable14.columnModel.title10=November
+jTable14.columnModel.title11=December
+jTable14.columnModel.title12=Total
+jLabel52.text=Column Totals:
+#NOI18N
+jLabel52.font=Tahoma-Plain-18
+jTable15.columnModel.title3=April
+jTable15.columnModel.title2=March
+jTable15.columnModel.title1=February
+jTable15.columnModel.title0=January
+jTable15.columnModel.title4=May
+jTable15.columnModel.title5=June
+jTable15.columnModel.title6=July
+jTable15.columnModel.title7=August
+jTable15.columnModel.title8=September
+jTable15.columnModel.title9=October
+jTable15.columnModel.title10=November
+jTable15.columnModel.title11=December
+jTable15.columnModel.title12=Total
+jTable16.columnModel.title0=January
+jTable16.columnModel.title3=April
+jTable16.columnModel.title2=March
+jTable16.columnModel.title1=February
+jTable16.columnModel.title4=May
+jTable16.columnModel.title5=June
+jTable16.columnModel.title6=July
+jTable16.columnModel.title7=August
+jTable16.columnModel.title8=September
+jTable16.columnModel.title9=October
+jTable16.columnModel.title10=November
+jTable16.columnModel.title11=December
+jTable16.columnModel.title12=Total
+jLabel53.text=Column Totals:
+#NOI18N
+jLabel53.font=Tahoma-Plain-18
+jTable17.columnModel.title0=January
+jTable17.columnModel.title3=April
+jTable17.columnModel.title2=March
+jTable17.columnModel.title1=February
+jTable17.columnModel.title4=May
+jTable17.columnModel.title5=June
+jTable17.columnModel.title6=July
+jTable17.columnModel.title7=August
+jTable17.columnModel.title8=September
+jTable17.columnModel.title9=October
+jTable17.columnModel.title10=November
+jTable17.columnModel.title11=December
+jTable17.columnModel.title12=Total

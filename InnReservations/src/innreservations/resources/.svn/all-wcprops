@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cpe365/!svn/ver/2/InnReservations/src/innreservations/resources
+END
+InnReservationsView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cpe365/!svn/ver/3/InnReservations/src/innreservations/resources/InnReservationsView.properties
+END
+InnReservationsApp.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cpe365/!svn/ver/2/InnReservations/src/innreservations/resources/InnReservationsApp.properties
+END
+InnReservationsAboutBox.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cpe365/!svn/ver/2/InnReservations/src/innreservations/resources/InnReservationsAboutBox.properties
+END
+about.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cpe365/!svn/ver/2/InnReservations/src/innreservations/resources/about.png
+END
+splash.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cpe365/!svn/ver/2/InnReservations/src/innreservations/resources/splash.png
+END
